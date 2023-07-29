@@ -8,7 +8,6 @@ import Thriller from './components/Thriller';
 import Business from './components/Business';
 import Sign from './components/Sign';
 
-
 function App() {
   switch (window.location.pathname){
     case  '/' :
