@@ -1,10 +1,9 @@
+import { isContentEditable } from '@testing-library/user-event/dist/utils'
 import React from 'react'
 
 const Navbar = () => {
-    const myul = document.getElementsByClassName("list")
-    const myfunc = ()=>{
-        myul[0].classList.toggle("active")
-    }
+
+
     
     return (
         
@@ -17,7 +16,7 @@ const Navbar = () => {
         
         </span>
             </a>
-        <ul className='list'>
+        <ul className='list' >
         
             <li><a href="/Med">MED</a></li>
             <li><a href="/science">science</a></li>
@@ -26,7 +25,6 @@ const Navbar = () => {
             <li><a href="/sign">SIGN IN</a></li>
         </ul>
 
-        <i className="fa-solid fa-bars" onClick={myfunc}></i>
     </div>
 
     )

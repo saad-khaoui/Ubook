@@ -44,6 +44,10 @@
     cursor: pointer;
 
 }
+/* Define the style for the "active" class */
+.active {
+  background-color: lightblue;
+}
 
 .navbar .list li:hover {
   width: 110px;
@@ -632,6 +636,7 @@ form .signup-link a:hover{
   width: 207px;
   height: 63px;
   left: 165px;
+  background-color: #754b0df7;
   text-align: center;
   padding-top: 65px;
   cursor: pointer;
@@ -721,5 +726,9 @@ form .signup-link a:hover{
   height: 70%;
   grid-template-columns: repeat(2,306px);
   left: 75px;
+}
+.footer-section {
+  display: none;
+
 }
 }
